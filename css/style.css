@@ -1,221 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+  font-size: 14px;
+  line-height: 24px;
+  color: #474744;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  fill: currentColor;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  margin: 0 auto;
 }
 
 .main-container {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    background-color: #FFFFFF;
-    margin: 40px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 40px auto;
 }
 
 /* Main content section */
 
-.main-content-sections{
-    padding: 100px 90px;
+.main-content-sections {
+  padding: 80px 70px;
 }
 
 .main-content-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: black;
-    margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #474744;
+  margin-bottom: 10px;
 }
-
-
 
 /* About my section */
 .about-my-sections {
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
-
 
 .about-my-profession {
-    font-size: 14px;
-    font-weight: 700;
-    color: black;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    margin: 0 0 20px 0;
+  font-weight: 700;
+  color: #474744;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 0 0 20px 0;
 }
 
-.about-my-name{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    margin: 25px 0 0 0;
-    color: black;
+.about-my-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 0 15px 0;
+  color: #474744;
 }
 
 .about-my-text {
-    color: #595959;;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    width: 400px;
+  color: #595959;
+  width: 550px;
 }
 
 /* My projects section */
-
-.my-projects-list {
-    padding: 0 0 0 16px;
+.my-projects-section {
+  margin-bottom: 40px;
 }
 
+.my-projects-list {
+  padding: 0 0 0 16px;
+  list-style: circle;
+}
 
 .my-projects-item {
-    color: black;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
+  font-weight: 700;
+  color: #cc811e;
+}
+.my-projects-item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.my-projects-item span {
+  font-weight: 400;
+  color: #a19b97;
+}
+
+.my-projects-item p {
+  font-weight: 400;
+  color: #595959;
 }
 
 .my-projects-link {
-    color:#595959;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  display: inline-block;
+  margin-right: 5px;
+  text-decoration-line: underline;
+  color: #4e4e48;
 }
 
 .my-projects-bracket {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
+  font-weight: 700;
+  color: #000000;
 }
 
 .my-projects-text {
-    color:#595959;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    margin-left: 5px;
+  color: #595959;
+  margin-left: 5px;
 }
 
 .my-work-experience-sections {
-    margin: 50px 0 0 0;
-    }
+  margin-bottom: 40px;
+}
+
+.my-experience-company {
+  margin-bottom: 10px;
+}
 
 .my-experience-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
 }
 
 .my-experience-period {
-    color: #A8A8A8;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 0 0 10px 0;
-    
-}
-
-.period-last{
-    margin-top: 10px;
+  color: #a19b97;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .my-experience-list {
-    padding-left: 17px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  padding-left: 17px;
+  list-style: circle;
 }
 
-.spacer {
-    color: #000000;
-
+.my-experience-item {
+  color: #cc811e;
 }
 
+.my-experience-item > span {
+  color: #595959;
+}
 .text-accent {
-    color: #FB6D3A;
+  color: #cc811e;
 }
-
-.my-education-sections {
-margin: 50px 0 0 0 ;
-}
-
 
 .second-content-title {
-    color: #FB6D3A;
-    margin: 10px 0 10px 0
+  color: #cc811e;
+  margin: 0 0 5px 0;
 }
 
 .my-management-education {
-    margin: 0 ;
+  margin: 0 0 5px 0;
+  line-height: 1.2;
+  font-size: 13px;
 }
 
-
+.my-education-last {
+  margin-bottom: 15px;
+}
 /* Sidebar section */
 
 .sidebar-sections {
-    background-color: #1E2939;
-    Width: 370px;
-    padding: 40px 0;
-    
+  background-color: #dad8d0;
+  width: 350px;
+  padding: 60px 0;
 }
 
+.sidebar-sections-skills {
+  padding-left: 40px;
+}
 
 .contacts-section,
-.tech-skills-section,
-.soft-skills-sections {
-margin: 50px 0 0 40px;
+.tech-skills-section {
+  margin: 0 0 40px 0;
 }
+
 .sidebar-title {
-color: #FFFFFF;
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-margin-bottom: 10px;
+  color: #474744;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
 }
 
 /* Contacts section */
-.contacts-section-type {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-right: 7px;
-}
-.contacts-section-link{
-    color: #8E949C;;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.contacts-section-link {
+  color: #4e4e48;
 }
 
+.contacts-section-link:hover {
+  color: #111110;
+}
+
+.contacts-section-list {
+  padding: 0;
+}
+
+.contacts-section-item {
+  list-style: none;
+}
 /* Tech slills section */
-.tech-skills-list, 
+.tech-skills-list,
 .soft-skills-list {
-    padding-left: 15px;
-    color: #FB6D3A;
+  padding-left: 15px;
+  color: #cc811e;
+  list-style: circle;
 }
 
 .soft-skills-tex,
 .tech-skills-tex {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  color: #474744;
 }
-
