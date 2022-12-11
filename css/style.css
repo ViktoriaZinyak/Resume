@@ -7,7 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #474744;
 }
@@ -65,7 +65,8 @@ section {
 /* Main content section */
 
 .main-content-sections {
-  padding: 80px 70px;
+  padding: 80px 60px 80px 80px;
+  flex-grow: 2;
 }
 
 .main-content-title {
@@ -99,7 +100,7 @@ section {
 
 .about-my-text {
   color: #595959;
-  width: 550px;
+  width: 650px;
 }
 
 /* My projects section */
@@ -202,7 +203,7 @@ section {
 
 .sidebar-sections {
   background-color: #dad8d0;
-  width: 350px;
+  width: 360px;
   padding: 60px 0;
 }
 
@@ -242,12 +243,12 @@ section {
 /* Tech slills section */
 .tech-skills-list,
 .soft-skills-list {
-  padding-left: 15px;
+  padding-left: 20px;
   color: #cc811e;
   list-style: circle;
 }
 
-.soft-skills-tex,
-.tech-skills-tex {
+.soft-skills-text,
+.tech-skills-text {
   color: #474744;
 }
