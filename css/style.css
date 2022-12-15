@@ -205,7 +205,7 @@ section {
 .sidebar-sections {
   background-color: #7ed3b4;
   width: 360px;
-  padding: 50px 0 40px 0;
+  padding-bottom: 40px;
 }
 
 /* .sidebar-photo {
